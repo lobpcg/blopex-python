@@ -17,6 +17,8 @@ https://github.com/dask/dask-ml/issues/364
 
 https://github.com/tensorflow/tensorflow/issues/21835
 
+https://github.com/search?q=lobpcg
+
 https://bitbucket.org/joseroman/blopex
 
 References
