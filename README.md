@@ -11,6 +11,12 @@ BLOPEX main features are: matrix-free iterative methods for computing several ex
 
 Related Projects
 
+https://github.com/scipy/scipy/blob/v1.1.0/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py
+
+https://github.com/dask/dask-ml/issues/364
+
+https://github.com/tensorflow/tensorflow/issues/21835
+
 https://bitbucket.org/joseroman/blopex
 
 References
