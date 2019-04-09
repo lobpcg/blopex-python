@@ -7,7 +7,7 @@ The original https://bitbucket.org/joseroman/blopex Block Locally Optimal Precon
 
 There is a Python code https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py but the multivector there is hard-coded to be in the format of https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html
 
-The goal of the current blopex-python project is to create a Python version of BLOPEX with a similar design - a single "abstract" code of LOBPCG and several interfaces to it from host packages, including scipy, dask, and tensorflow, all written in Python. When completed, the corresponding files are to be included in the host packages, with the idea that the interface codes are maintained by the host developers, while the "abstract" code is maintained in blopex-python .
+The goal of the current blopex-python project is to create a Python version of BLOPEX with a similar design - a single "abstract" code of LOBPCG and several interfaces to it from host packages, including scipy, dask, pytorch, and tensorflow, all written in Python. When completed, the corresponding files are to be included in the host packages, with the idea that the interface codes are maintained by the host developers, while the "abstract" code is maintained in blopex-python .
 
 BLOPEX main features are: matrix-free iterative methods for computing several extreme eigenpairs of symmetric/Hermitian generalized eigenproblems; user-defined preconditioning; robustness with respect to random initial approximations; and apparently optimal convergence speed.
 
@@ -18,6 +18,8 @@ https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobp
 https://github.com/dask/dask-ml/issues/364
 
 https://github.com/tensorflow/tensorflow/issues/21835
+
+https://github.com/pytorch/pytorch/issues/8049
 
 https://github.com/search?q=lobpcg
 
