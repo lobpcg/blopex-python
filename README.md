@@ -3,7 +3,7 @@ BLOPEX: Block Locally Optimal Preconditioned Eigenvalue Xolvers in Python
 
 General
 
-The original https://bitbucket.org/joseroman/blopex Block Locally Optimal Preconditioned Eigenvalue Xolvers (BLOPEX) [1] is a package, written in C and MATLAB/OCTAVE, that includes an eigensolver implemented with the Locally Optimal Block Preconditioned Conjugate Gradient Method (LOBPCG) [2,3,4]. BLOPEX design is to have a single "abstract" code of LOBPCG and several interfaces to it from host packages, including MPI-based HYPRE and PETSc/SLEPc, all written in C.
+The original https://github.com/lobpcg/blopex Block Locally Optimal Preconditioned Eigenvalue Xolvers (BLOPEX) [1] is a package, written in C and MATLAB/OCTAVE, that includes an eigensolver implemented with the Locally Optimal Block Preconditioned Conjugate Gradient Method (LOBPCG) [2,3,4]. BLOPEX design is to have a single "abstract" code of LOBPCG and several interfaces to it from host packages, including MPI-based HYPRE and PETSc/SLEPc, all written in C.
 
 There is a Python code https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py but the multivector there is hard-coded to be in the format of https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html
 
@@ -23,7 +23,7 @@ https://github.com/pytorch/pytorch/issues/8049
 
 https://github.com/search?q=lobpcg
 
-https://bitbucket.org/joseroman/blopex
+https://github.com/lobpcg/blopex
 
 References
 
