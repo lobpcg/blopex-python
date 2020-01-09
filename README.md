@@ -20,6 +20,7 @@ https://github.com/dask/dask-ml/issues/364
 https://github.com/tensorflow/tensorflow/issues/21835
 
 https://github.com/pytorch/pytorch/issues/8049
+https://github.com/pytorch/pytorch/pull/29488
 
 https://github.com/search?q=lobpcg
 
